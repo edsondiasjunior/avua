@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --font-md-lump: var(--font-md-lump);
+  --font-nohemi: var(--font-nohemi);
+}
+
+:root {
+  --sizeBorda: 0%;
+  --accentColor: #b2f10c;
+  --lightColor: #f2eed9;
+  --bgDrkColor: #26251f;
+  --baseColor: #fcfff8;
+}
+
+h1,
+h2 {
+  font-family: var(--font-nohemi);
+  font-weight: 600;
+}
+
+body {
+  font-family: var(--font-nohemi);
+  background: #f2f2f2;
+}

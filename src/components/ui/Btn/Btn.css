@@ -1,0 +1,91 @@
+
+.btbContainer {
+  position: relative;
+  width: 280px;
+  height: 3.5rem;
+  z-index: 2;
+}
+
+.btn {
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.btnText {
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  color: #000;
+  position: absolute;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.2s ease;
+}
+
+.btnIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  top: 50%;
+  right: 0;
+  transform: translate(0%, -50%);
+  border-radius: 4rem;
+  transition: all 0.2s ease;
+}
+svg {
+  stroke: black;
+  transition: all 0.2s ease;
+}
+
+.blurred {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  filter: url(#gooey);
+}
+.blurtext {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 100%;
+  background: var(--accentColor);
+  border-radius: 4rem;
+  transition: all 0.2s ease;
+}
+.bluricon {
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  right: 0;
+  top: 0;
+  background: var(--accentColor);
+  border-radius: 4rem;
+  transition: all 0.2s ease;
+}
+
+@media (width >= 1024px) {
+  .btbContainer:hover .blurtext {
+    width: 100%;
+  }
+
+  .btbContainer:hover svg {
+    background: black;
+    stroke: #ffffff;
+    height: 90%;
+    width: 90%;
+    padding: 13px;
+    border-radius: 3rem;
+  }
+}
