@@ -1,47 +1,45 @@
 import type { Metadata } from "next";
-import localFont from 'next/font/local'
+import localFont from "next/font/local";
 
 import "./globals.css";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
-
 const mdLump = localFont({
   src: [
     {
-     path: '../fonts/md-lump.otf',
-     style: 'normal',
-    }
+      path: "../fonts/md-lump.otf",
+      style: "normal",
+    },
   ],
-  variable: '--font-md-lump',  // ← ADICIONE ISSO
-})
+  variable: "--font-md-lump", // ← ADICIONE ISSO
+});
 
 const nohemi = localFont({
   src: [
     {
-     path: '../fonts/Nohemi-Light.woff2',
-     weight: '500',
-     style: 'normal',
+      path: "../fonts/Nohemi-Light.woff2",
+      weight: "500",
+      style: "normal",
     },
     {
-     path: '../fonts/Nohemi-Regular.woff2',
-     weight: '400',
-     style: 'normal',
+      path: "../fonts/Nohemi-Regular.woff2",
+      weight: "400",
+      style: "normal",
     },
     {
-     path: '../fonts/Nohemi-Medium.woff2',
-     weight: '600',
-     style: 'normal',
+      path: "../fonts/Nohemi-Medium.woff2",
+      weight: "600",
+      style: "normal",
     },
     {
-     path: '../fonts/Nohemi-Bold.woff2',
-     weight: '700',
-     style: 'normal',
+      path: "../fonts/Nohemi-Bold.woff2",
+      weight: "700",
+      style: "normal",
     },
   ],
-  variable: '--font-nohemi',  // ← ADICIONE ISSO
-})
-
+  variable: "--font-nohemi", // ← ADICIONE ISSO
+});
 
 export const metadata: Metadata = {
   title: "Avuá Agency",
@@ -55,12 +53,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body
-        className={`${nohemi.variable} ${mdLump.variable} antialiased`}
-      >
-        <Header/>
+      <body className={`${nohemi.variable} ${mdLump.variable} antialiased`}>
+        {/* <Header /> */}
         {children}
-        <Footer/>
+        
       </body>
     </html>
   );

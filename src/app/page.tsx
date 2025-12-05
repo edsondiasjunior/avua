@@ -1,24 +1,9 @@
-import Accordion from "@/components/section/Accordion";
-import Hero from "@/components/section/Hero";
-// import Service from "@/components/Service"
-import Price from "@/components/Price"
-import ComoFunciona from "@/components/comoFunciona";
-import Funcionalidades from "@/components/Funcionalidades";
-import Sobre from "@/components/Sobre";
-
-
-
+import Image from "next/image";
 
 export default function Home() {
   return (
-    <>
-    <Hero/>     
-    <ComoFunciona/>
-    <Funcionalidades/>
-    <Sobre/>
-    <Accordion/>
-    <Price/>
-
-    </>
+    <section className="h-screen w-full flex items-center justify-center">
+      <Image src={"/avua_logo.svg"} alt="Avuá Agency" height={168} width={116} />
+    </section>
   );
 }
