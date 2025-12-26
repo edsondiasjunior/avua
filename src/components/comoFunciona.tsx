@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function comoFunciona() {
   return (
-    <section className=" p-4 py-28 flex flex-col items-center justify-center gap-16 sticky top-0 z-[-1] ">
+    <section className=" p-4 py-28 flex flex-col items-center justify-center gap-16 lg:sticky lg:top-0 z-[-1] ">
 
       <div className="flex flex-col items-center justify-center gap-4">
         <Tagline tagline={"Agência de sites"} />

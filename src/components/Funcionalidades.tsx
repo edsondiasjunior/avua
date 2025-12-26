@@ -1,9 +1,9 @@
 import { MonitorSmartphone } from "lucide-react";
 export default function Funcionalidades() {
   return (
-    <section className="bg-[#01112B] rounded-t-[80px] py-32 px-16 z-100">
-      <div className="grid grid-cols-2">
-        <div className="flex flex-col items-start gap-4 self-start sticky top-32 ">
+    <section className="bg-[#01112B] rounded-t-[80px] py-32 px-4 lg:px-16 z-100">
+      <div className="grid lg:grid-cols-2">
+        <div className="flex flex-col items-start gap-4 self-start sticky top-[5%] lg:top-32 ">
           <span className="text-[1.1rem] uppercase text-[#8BED02]">
             criação de site profissional
           </span>
@@ -11,7 +11,7 @@ export default function Funcionalidades() {
         </div>
 
         <div className="flex flex-col gap-8">
-          <article className="flex items-center min-h-96 justify-center bg-[#0153E3] p-8  rounded-[48px] sticky top-32 ">
+          <article className="flex items-center min-h-96 justify-center bg-[#0153E3] p-8  rounded-[48px] sticky top-[24%] lg:top-32 ">
             <div className="flex flex-col gap-8">
               <div className="flex items-center gap-4 text-4xl  font-bold">
                 <span className="flex w-fit p-4 rounded-full bg-[#8BED02] ">
@@ -29,7 +29,7 @@ export default function Funcionalidades() {
             </div>
           </article>
 
-          <article className="flex items-center min-h-96 justify-center bg-[#E8E8E8] p-8  rounded-[48px] sticky top-32">
+          <article className="flex items-center min-h-96 justify-center bg-[#E8E8E8] p-8  rounded-[48px] sticky top-[24%] lg:top-32">
             <div className="flex flex-col gap-8">
               <div className="flex items-center gap-4 text-4xl  font-bold">
                 <span className="flex w-fit p-4 rounded-full bg-[#8BED02] ">
@@ -48,7 +48,7 @@ export default function Funcionalidades() {
             </div>
           </article>
 
-          <article className="flex items-center min-h-96 justify-center bg-[#012C8A] p-8  rounded-[48px] sticky top-32">
+          <article className="flex items-center min-h-96 justify-center bg-[#012C8A] p-8  rounded-[48px] sticky top-[24%] lg:top-32">
             <div className="flex flex-col gap-8">
               <div className="flex items-center gap-4 text-4xl  font-bold">
                 <span className="flex w-fit p-4 rounded-full bg-[#8BED02] ">
@@ -67,7 +67,7 @@ export default function Funcionalidades() {
             </div>
           </article>
 
-          <article className="flex items-center min-h-96 justify-center bg-[#E8E8E8] p-8  rounded-[48px] sticky top-32">
+          <article className="flex items-center min-h-96 justify-center bg-[#E8E8E8] p-8  rounded-[48px] sticky top-[24%] lg:top-32">
             <div className="flex flex-col gap-8">
               <div className="flex items-center gap-4 text-4xl  font-bold">
                 <span className="flex w-fit p-4 rounded-full bg-[#8BED02] ">
@@ -87,7 +87,7 @@ export default function Funcionalidades() {
             </div>
           </article>
 
-          <article className="flex items-center min-h-96 justify-center bg-[#0153E3] p-8  rounded-[48px] sticky top-32">
+          <article className="flex items-center min-h-96 justify-center bg-[#0153E3] p-8  rounded-[48px] sticky top-[24%] lg:top-32">
             <div className="flex flex-col gap-8">
               <div className="flex items-center gap-4 text-4xl  font-bold">
                 <span className="flex w-fit p-4 rounded-full bg-[#8BED02] ">
@@ -104,7 +104,7 @@ export default function Funcionalidades() {
             </div>
           </article>
 
-          <article className="flex items-center min-h-96 justify-center bg-[#E8E8E8] p-8  rounded-[48px] sticky top-32">
+          <article className="flex items-center min-h-96 justify-center bg-[#E8E8E8] p-8  rounded-[48px] sticky top-[24%] lg:top-32">
             <div className="flex flex-col gap-8">
               <div className="flex items-center gap-4 text-4xl  font-bold">
                 <span className="flex w-fit p-4 rounded-full bg-[#8BED02] ">
@@ -121,7 +121,7 @@ export default function Funcionalidades() {
             </div>
           </article>
 
-          <article className="flex items-center min-h-96 justify-center bg-[#012C8A] p-8  rounded-[48px] sticky top-32">
+          <article className="flex items-center min-h-96 justify-center bg-[#012C8A] p-8  rounded-[48px] sticky top-[24%] lg:top-32">
             <div className="flex flex-col gap-8">
               <div className="flex items-center gap-4 text-4xl  font-bold">
                 <span className="flex w-fit p-4 rounded-full bg-[#8BED02] ">
@@ -138,7 +138,7 @@ export default function Funcionalidades() {
             </div>
           </article>
 
-          <article className="flex items-center min-h-96 justify-center bg-[#E8E8E8] p-8  rounded-[48px] sticky top-32">
+          <article className="flex items-center min-h-96 justify-center bg-[#E8E8E8] p-8  rounded-[48px] sticky top-[24%] lg:top-32">
             <div className="flex flex-col gap-8">
               <div className="flex items-center gap-4 text-4xl  font-bold">
                 <span className="flex w-fit p-4 rounded-full bg-[#8BED02] ">
@@ -155,7 +155,7 @@ export default function Funcionalidades() {
             </div>
           </article>
 
-          <article className="flex items-center min-h-96 justify-center bg-[#0153E3] p-8  rounded-[48px] sticky top-32">
+          <article className="flex items-center min-h-96 justify-center bg-[#0153E3] p-8  rounded-[48px] sticky top-[24%] lg:top-32">
             <div className="flex flex-col gap-8">
               <div className="flex items-center gap-4 text-4xl  font-bold">
                 <span className="flex w-fit p-4 rounded-full bg-[#8BED02] ">
