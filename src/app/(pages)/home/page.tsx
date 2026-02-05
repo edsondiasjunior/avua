@@ -1,13 +1,14 @@
-import Accordion from "@/components/section/Accordion";
-import Hero from "@/components/section/Hero";
+import Accordion from "@/components/sections/Accordion";
+import Hero from "@/components/sections/Hero";
 
 
-import Funcionalidades from "@/components/Funcionalidades";
-import Sobre from "@/components/Sobre";
-import Beneficios from "@/components/section/beneficios";
+import Funcionalidades from "@/components/sections/Funcionalidades";
+import Sobre from "@/components/sections/Sobre";
+import Beneficios from "@/components/sections/beneficios";
 
 
 import type { Metadata } from "next";
+import Cta from "@/components/sections/Cta";
 
 export const metadata: Metadata = {
   title: "Home | Avuá Agency",
@@ -27,6 +28,7 @@ export default function Home() {
       <Sobre />
       <Funcionalidades />
       <Beneficios/>
+      <Cta/>
       <Accordion />
       
     </>

@@ -6,7 +6,7 @@ export default function Btn() {
    
          <a href="https://wa.me/+5515976029714?text=Olá,%20tudo%20bem?%20Gostaria%20de%20fazer%20um%20orçamento." target="_blank"  className="btn">
                 
-                <span className="btnText ">Entre em contato </span> 
+                <span className="btnText ">Falar com a Avuá </span> 
                 <span className="btnIcon">                
                   <svg 
                   width="24"

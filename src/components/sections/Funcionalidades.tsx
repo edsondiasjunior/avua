@@ -5,8 +5,8 @@ export default function Funcionalidades() {
     <section className="bg-[#1f1f1f] py-22 px-4 lg:px-16 z-100 ">
       <div className=" flex flex-col items-center justify-center lg:grid-cols-2 gap-26 sticky ">
         {/* TÍTULO */}
-        <div className="flex flex-col items-center gap-4  sticky top-22  ">
-          <span className="text-[1.1rem] uppercase text-[#8BED02] text-center">
+        <div className="flex flex-col items-center gap-8  sticky top-22  ">
+          <span className="text-[1.1rem] uppercase text-[#8BED02] text-center tracking-[.16em]">
             O que fazemos
           </span>
           <h2 className="text-5xl md:text-5xl text-white max-w-4xl text-center">

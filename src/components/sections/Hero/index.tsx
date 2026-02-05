@@ -1,13 +1,13 @@
 import Btn from "@/components/ui/Btn";
-import Image from "next/image";
-import "@/components/gsap/gsap";
+
+import "@/lib/gsap/gsap";
 
 export default function Hero() {
   return (
     <>
-      <section className="px-4 py-16 flex flex-col items-center justify-end relative h-[80vh]">
+      <section className="px-4 py-16 flex flex-col items-center justify-end relative h-[60vh]">
         <div className="flex justify-between px-12 w-full">
-          <h1 className="text-start text-5xl md:text-6xl max-w-[990] ">
+          <h1 className="text-start text-5xl md:text-6xl  max-w-[990] ">
             Construímos presença digital que gera valor, conexão e crescimento.
           </h1>
 
@@ -32,7 +32,7 @@ export default function Hero() {
             loop
             playsInline
             preload="none"
-            poster="/images/hero-poster.jpg"
+            poster="/hero-poster.avif"
             className="absolute inset-0 w-full h-full object-cover"
           >
             <source src="/video/website-portfolio.mp4" type="video/webm" />

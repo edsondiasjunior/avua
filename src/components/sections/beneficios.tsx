@@ -1,10 +1,16 @@
 import Image from "next/image";
+
 export default function Beneficios() {
   return (
     <section className=" bg-white py-52 px-16 flex flex-col items-center gap-52">
-      <h2 className="text-5xl md:text-5xl text-black max-w-[600] text-start">
-        O que sua marca ganha com uma presença digital estratégica
-      </h2>
+      <div className="flex flex-col gap-8">
+        <span className="text-[1.1rem] uppercase text-[#000000] text-start tracking-[.16em]">
+            Benefícios
+          </span>
+        <h2 className="text-5xl md:text-6xl text-black max-w-3xl text-start">
+          O que sua marca ganha com uma presença digital estratégica
+        </h2>
+      </div>
 
       <div>
         {/* CARD 1 */}
@@ -15,7 +21,8 @@ export default function Beneficios() {
           </div>
 
           <p className="col-span-3">
-            Você sabe onde investir, o que priorizar e como evoluir sua presença digital com direção clara.
+            Você sabe onde investir, o que priorizar e como evoluir sua presença
+            digital com direção clara.
           </p>
 
           {/* HOVER */}
@@ -37,12 +44,13 @@ export default function Beneficios() {
           </div>
 
           <p className="col-span-3">
-            Sua marca se comunica de forma alinhada em todos os canais, fortalecendo percepção, autoridade e confiança.
+            Sua marca se comunica de forma alinhada em todos os canais,
+            fortalecendo percepção, autoridade e confiança.
           </p>
 
           {/* HOVER */}
           <span className="flex flex-col opacity-0 justify-between items-end h-[300] w-[250] px-8 py-4 bg-gray-950 absolute left-[50%] p-4 rounded-2xl rotate-8 group-hover:opacity-100 group-hover:translate-x-5 transition duration-300 ease-in-out z-1">
-            <Image src="/hover_2.png" alt="hover" width={100} height={100}  />
+            <Image src="/hover_2.png" alt="hover" width={100} height={100} />
             <div>
               <p className="text-[1.5rem] leading-6 text-white ">
                 Coerência constrói marcas fortes
@@ -59,7 +67,8 @@ export default function Beneficios() {
           </div>
 
           <p className="col-span-3">
-            Interfaces e conteúdos pensados para facilitar a jornada, reduzir fricção e gerar resultados reais.
+            Interfaces e conteúdos pensados para facilitar a jornada, reduzir
+            fricção e gerar resultados reais.
           </p>
 
           {/* HOVER */}
@@ -81,7 +90,8 @@ export default function Beneficios() {
           </div>
 
           <p className="col-span-3">
-            Uma base sólida para evoluir, lançar, escalar e sustentar o crescimento do negócio no digital.
+            Uma base sólida para evoluir, lançar, escalar e sustentar o
+            crescimento do negócio no digital.
           </p>
 
           {/* HOVER */}
