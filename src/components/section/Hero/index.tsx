@@ -1,70 +1,43 @@
 import Btn from "@/components/ui/Btn";
 import Image from "next/image";
-import  "@/components/gsap/gsap";
+import "@/components/gsap/gsap";
 
 export default function Hero() {
   return (
     <>
-      <section className="px-4 py-16 flex flex-col items-center justify-center relative h-[60vh]">
-        <div className="flex flex-col gap-8 items-center justify-center ">
-          <h1 className="text-center text-5xl md:text-8xl max-w-5xl">
-            Transformamos ideias em sites profissinais
+      <section className="px-4 py-16 flex flex-col items-center justify-end relative h-[80vh]">
+        <div className="flex justify-between px-12 w-full">
+          <h1 className="text-start text-5xl md:text-6xl max-w-[990] ">
+            Construímos presença digital que gera valor, conexão e crescimento.
           </h1>
-          <div className="flex flex-col gap-4 items-center justify-center md:grid md:grid-cols-3 max-w-3xl">
-            <p className="text-center md:text-start md:col-span-2">
-              Agência de criação de
-              <strong> sites personalizados para empresas.</strong> Somoes
-              especialistas em desenvolvimento de sites
+
+          <div className="flex flex-col gap-4 items-start justify-center   max-w-[400px]">
+            <p className="text-center md:text-start md:col-span-4">
+              Unimos estratégia, design e tecnologia para transformar marcas em
+              experiências digitais relevantes. Do visual à performance.
             </p>
-            <Btn />
+
+            <div className="md:col-span-4 flex ">
+              <Btn />
+            </div>
           </div>
-        </div>
-        <div className="hidden lg:block">
-          <Image
-            className="absolute left-[5%] top-[45%]"
-            src="/ballon.svg"
-            alt="Balões Flutuando"
-            height={172}
-            width={189}
-          />
-          <Image
-            className="absolute md:right-[5%] md:top-[45%]"
-            src="/rocket.svg"
-            alt="Foguete subindo"
-            height={172}
-            width={189}
-          />
         </div>
       </section>
 
-      <section className="overflow-x-hidden">
-        
-        <div className="flex  gap-8 ">
-          <Image
-            className="itemImagesHero"
-            src={"/tela00.webp"}
-            alt="Portfolio"
-            width={1024}
-            height={720}
-          />
-
-          <Image
-            className="itemImagesHero"
-            src={"/image/tela01.webp"}
-            alt="Portfolio"
-            width={1024}
-            height={720}
-          />
-
-          <Image
-            className="itemImagesHero"
-            src={"/image/tela2.webp"}
-            alt="Portfolio"
-            width={1024}
-            height={720}
-          />
-
-
+      <section className="overflow-x-hidden relative w-full">
+        <div className="relative w-full aspect-video">
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="none"
+            poster="/images/hero-poster.jpg"
+            className="absolute inset-0 w-full h-full object-cover"
+          >
+            <source src="/video/website-portfolio.mp4" type="video/webm" />
+            <source src="/videos/hero.mp4" type="video/mp4" />
+          </video>
         </div>
       </section>
     </>
