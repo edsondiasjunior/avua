@@ -1,15 +1,20 @@
 import Image from "next/image";
+import RevealTitle from "@/components/animation/RevealTitle";
 
 export default function Beneficios() {
   return (
     <section className=" bg-white py-52 px-16 flex flex-col items-center gap-52">
       <div className="flex flex-col gap-8">
         <span className="text-[1.1rem] uppercase text-[#000000] text-start tracking-[.16em]">
-            Benefícios
-          </span>
-        <h2 className="text-5xl md:text-6xl text-black max-w-3xl text-start">
+          Benefícios
+        </span>
+
+        <RevealTitle
+          as="h2"
+          className="text-5xl md:text-6xl text-black max-w-5xl text-start"
+        >
           O que sua marca ganha com uma presença digital estratégica
-        </h2>
+        </RevealTitle>
       </div>
 
       <div>

@@ -1,28 +1,39 @@
 import Btn from "@/components/ui/Btn";
-
-import "@/lib/gsap/gsap";
+import HeroAnimation from "./HeroAnimation";
+import RevealTitle from "@/components/animation/RevealTitle"
 
 export default function Hero() {
   return (
     <>
-      <section className="px-4 py-16 flex flex-col items-center justify-end relative h-[60vh]">
-        <div className="flex justify-between px-12 w-full">
-          <h1 className="text-start text-5xl md:text-6xl  max-w-[990] ">
+      <section className="px-16 py-16 flex flex-col items-center justify-end relative h-[60vh]">
+        <div className="grid grid-cols-12 gap-10 w-full">
+
+
+          <RevealTitle
+            as="h1"
+            className="col-span-8 text-start text-5xl md:text-6xl max-w-[990px] self-end"
+          >
             Construímos presença digital que gera valor, conexão e crescimento.
-          </h1>
+          </RevealTitle>
 
-          <div className="flex flex-col gap-4 items-start justify-center   max-w-[400px]">
-            <p className="text-center md:text-start md:col-span-4">
-              Unimos estratégia, design e tecnologia para transformar marcas em
-              experiências digitais relevantes. Do visual à performance.
-            </p>
+          <div
+            data-hero-side
+            className="col-span-4 self-end justify-self-end flex flex-col gap-4 items-start justify-center max-w-[450px]"
+          >
+            <div className="flex flex-col gap-8">
+              <p className="text-center md:text-start md:col-span-4">
+                Unimos estratégia, design e tecnologia para transformar marcas
+                em experiências digitais relevantes. Do visual à performance.
+              </p>
 
-            <div className="md:col-span-4 flex ">
-              <Btn />
+              <div className="md:col-span-4 flex">
+                <Btn />
+              </div>
             </div>
           </div>
         </div>
       </section>
+      <HeroAnimation />
 
       <section className="overflow-x-hidden relative w-full">
         <div className="relative w-full aspect-video">
@@ -35,8 +46,7 @@ export default function Hero() {
             poster="/hero-poster.avif"
             className="absolute inset-0 w-full h-full object-cover"
           >
-            <source src="/video/website-portfolio.mp4" type="video/webm" />
-            <source src="/videos/hero.mp4" type="video/mp4" />
+            <source src="/video/website-portfolio.mp4" type="video/mp4" />
           </video>
         </div>
       </section>

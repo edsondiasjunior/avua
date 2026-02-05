@@ -1,4 +1,4 @@
-import Accordion from "@/components/sections/Accordion";
+
 import Hero from "@/components/sections/Hero";
 
 
@@ -29,7 +29,7 @@ export default function Home() {
       <Funcionalidades />
       <Beneficios/>
       <Cta/>
-      <Accordion />
+
       
     </>
   );

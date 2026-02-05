@@ -9,13 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        nohemi: [
-          "var(--font-nohemi)",
-          "system-ui",
-          "-apple-system",
-          "BlinkMacSystemFont",
-          "sans-serif",
-        ],
+        sans: ["var(--font-work-sans)", "system-ui", "sans-serif"],
+        display: ["var(--font-nohemi)", "system-ui", "sans-serif"],
       },
     },
   },

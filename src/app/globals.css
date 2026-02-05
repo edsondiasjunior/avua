@@ -1,10 +1,5 @@
 @import "tailwindcss";
 
-@theme {
-  --font-md-lump: var(--font-md-lump);
-  --font-nohemi: var(--font-nohemi);
-}
-
 :root {
   --sizeBorda: 0%;
   --accentColor: #b2f10c;
@@ -20,14 +15,26 @@ h2 {
 } */
 
 body {
-  font-family: var(--font-nohemi);
   background: #f2f2f2;
 }
 
+h1 {
+  font-family: var(--font-nohemi);
+  font-size: 3.9rem;
+  letter-spacing: 0.05rem;
+}
 
+h2 {
+  font-family: var(--font-nohemi);
+  font-size: 3.9rem;
+  font-weight: 400;
+  letter-spacing: 0.05rem;
+  line-height: 4rem;
+}
 
 p {
-  @apply font-sans text-[1.2rem] font-[450] leading-relaxed;
+  font-family: var(--font-work-sans), system-ui, sans-serif;
+  font-size: 1.2rem;
 }
 
 .nutriGradient {

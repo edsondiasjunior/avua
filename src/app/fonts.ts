@@ -1,4 +1,3 @@
-
 import localFont from "next/font/local";
 
 export const nohemi = localFont({
@@ -13,12 +12,7 @@ export const nohemi = localFont({
 });
 
 export const workSans = localFont({
-  src: [
-    {
-      path: "../fonts/WorkSans-VariableFont_wght.ttf",
-      style: "normal",
-    },
-  ],
+  src: [{ path: "../fonts/WorkSans-VariableFont_wght.ttf", style: "normal" }],
   variable: "--font-work-sans",
   display: "swap",
 });
