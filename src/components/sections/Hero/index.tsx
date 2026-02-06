@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <>
       <section className="px-8 lg:px-16 py-22 flex flex-col items-center justify-end relative w-full h-[70vh]">
-        <div className="grid grid-cols-12 gap-10 w-full">
+        <div className="grid grid-cols-12 gap-10 sm:w-full">
 
 
           <RevealTitle
@@ -21,7 +21,7 @@ export default function Hero() {
             data-hero-side
             className="col-span-12 lg:col-span-4 self-start sm:self-end sm:justify-self-end flex flex-col gap-4 items-start justify-center max-w-[450px] sm:border-l sm:pl-12"
           >
-            <div className="flex flex-col gap-8">
+            <div className="flex flex-col  gap-8">
               <p className="text-start  md:col-span-4">
                 Unimos estratégia, design e tecnologia para transformar marcas
                 em <strong>  experiências digitais relevantes. </strong> Do visual à performance.
