@@ -15,19 +15,19 @@ export default function Funcionalidades() {
 
           <RevealTitle
             as="h2"
-            className="text-5xl md:text-5xl text-white max-w-6xl text-center"
+            className="text-white sm:max-w-6xl text-center"
           >
             Nada aqui é por acaso
           </RevealTitle>
-          <p className="text-white">
+          <p className="text-white text-center">
             Estratégia, método e intenção em cada entrega.
           </p>
         </div>
 
         {/* CARDS */}
-        <div className="flex flex-col items-center gap-80">
+        <div className="flex flex-col items-center gap-16 sm:gap-80">
           {/* CARD 01 */}
-          <article className="w-full flex h-[90%] sm:h-auto flex-col py-8 sm:grid sm:grid-cols-2   sm:min-h-96 bg-[#e9e9e9]  rounded-2xl lg:rounded-[18px] sticky top-[5%] sm:top-[24%] lg:top-[40%] max-w-[1000] ">
+          <article className="w-full flex h-[90%] sm:h-auto flex-col py-8 sm:grid sm:grid-cols-2   sm:min-h-96 bg-[#e9e9e9]  rounded-2xl lg:rounded-[18px] sm:sticky sm:top-[24%] lg:top-[40%] max-w-[1000] ">
 
             <div className="col-span-1 flex h-[300px] w-auto sm:h-full pt-8  relative">
               <LottieLazy
@@ -52,7 +52,7 @@ export default function Funcionalidades() {
           </article>
 
           {/* CARD 02 */}
-          <article className="w-full flex h-[90%] sm:h-auto flex-col-reverse py-8 sm:grid sm:grid-cols-2   sm:min-h-96 bg-[#e9e9e9]  rounded-2xl lg:rounded-[18px] sticky top-[5%] sm:top-[24%] lg:top-[40%] max-w-[1000] ">
+          <article className="w-full flex h-[90%] sm:h-auto flex-col-reverse py-8 sm:grid sm:grid-cols-2   sm:min-h-96 bg-[#e9e9e9]  rounded-2xl lg:rounded-[18px] sm:sticky sm:top-[24%] lg:top-[40%] max-w-[1000] ">
             <div className="flex flex-col lg:items-start gap-4 p-8 sm:p-12 border-r text-4xl w-full justify-center col-span-1">
               <span className="tagline text-[1rem] font-bold tracking-[.16em] leading-0 text-center flex items-center justify-center h-[30px] w-[50px] bg-[#8BED02] ">
                 02
@@ -75,7 +75,7 @@ export default function Funcionalidades() {
           </article>
 
           {/* CARD 03 */}
-          <article className="w-full flex h-[90%] sm:h-auto flex-col py-8 sm:grid sm:grid-cols-2   sm:min-h-96 bg-[#e9e9e9]  rounded-2xl lg:rounded-[18px] sticky top-[5%] sm:top-[24%] lg:top-[40%] max-w-[1000] ">
+          <article className="w-full flex h-[90%] sm:h-auto flex-col py-8 sm:grid sm:grid-cols-2   sm:min-h-96 bg-[#e9e9e9]  rounded-2xl lg:rounded-[18px] sm:sticky sm:top-[24%] lg:top-[40%] max-w-[1000] ">
             <div className="col-span-1 flex h-[300px] w-auto sm:h-full pt-8  relative">
               <LottieLazy
                 src="/lottie/lottie-card-03.json"
@@ -98,7 +98,7 @@ export default function Funcionalidades() {
           </article>
 
           {/* CARD 04 */}
-          <article className="w-full flex h-[90%] sm:h-auto flex-col-reverse py-8 sm:grid sm:grid-cols-2   sm:min-h-96 bg-[#e9e9e9]  rounded-2xl lg:rounded-[18px] sticky top-[5%] sm:top-[24%] lg:top-[40%] max-w-[1000] ">
+          <article className="w-full flex h-[90%] sm:h-auto flex-col-reverse py-8 sm:grid sm:grid-cols-2   sm:min-h-96 bg-[#e9e9e9]  rounded-2xl lg:rounded-[18px] sm:sticky sm:top-[24%] lg:top-[40%] max-w-[1000] ">
             <div className="flex flex-col lg:items-start gap-4 p-8 sm:p-12 border-r text-4xl w-full justify-center col-span-1">
               <span className="tagline text-[1rem] font-bold tracking-[.16em] leading-0 text-center flex items-center justify-center h-[30px] w-[50px] bg-[#8BED02] ">
                 04
@@ -121,7 +121,7 @@ export default function Funcionalidades() {
           </article>
 
           {/* CARD 05 */}
-          <article className="w-full flex h-[90%] sm:h-auto flex-col py-8 sm:grid sm:grid-cols-2   sm:min-h-96 bg-[#e9e9e9]  rounded-2xl lg:rounded-[18px] sticky top-[5%] sm:top-[24%] lg:top-[40%] max-w-[1000] ">
+          <article className="w-full flex h-[90%] sm:h-auto flex-col py-8 sm:grid sm:grid-cols-2   sm:min-h-96 bg-[#e9e9e9]  rounded-2xl lg:rounded-[18px] sm:sticky sm:top-[24%] lg:top-[40%] max-w-[1000] ">
             <div className="col-span-1 flex h-[300px] w-auto sm:h-full pt-8  relative">
               <LottieLazy
                 src="/lottie/lottie-card-05.json"
@@ -144,7 +144,7 @@ export default function Funcionalidades() {
           </article>
 
           {/* CARD 06 */}
-          <article className="w-full flex h-[90%] sm:h-auto flex-col-reverse py-8 sm:grid sm:grid-cols-2   sm:min-h-96 bg-[#e9e9e9]  rounded-2xl lg:rounded-[18px] sticky top-[5%] sm:top-[24%] lg:top-[40%] max-w-[1000] ">
+          <article className="w-full flex h-[90%] sm:h-auto flex-col-reverse py-8 sm:grid sm:grid-cols-2   sm:min-h-96 bg-[#e9e9e9]  rounded-2xl lg:rounded-[18px] sm:sticky sm:top-[24%] lg:top-[40%] max-w-[1000] ">
             <div className="flex flex-col lg:items-start gap-4 p-8 sm:p-12 border-r text-4xl w-full justify-center col-span-1">
               <span className="tagline text-[1rem] font-bold tracking-[.16em] leading-0 text-center flex items-center justify-center h-[30px] w-[50px] bg-[#8BED02] ">
                 06
