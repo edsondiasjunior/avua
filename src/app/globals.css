@@ -20,8 +20,8 @@ body {
 
 h1 {
   font-family: var(--font-nohemi);
-  font-size: 3.4rem;
-  line-height: 4rem;
+  font-size: 2.5rem;
+  line-height: 3rem;
   letter-spacing: 0.05rem;
 }
 
@@ -33,35 +33,7 @@ h2 {
   line-height: 4rem;
 }
 
-@media (width >= 40rem) {
-  h1 {
-    font-family: var(--font-nohemi);
-    font-size: 4.9rem;
-    line-height: 4.7rem;
-    letter-spacing: 0.05rem;
-  }
 
-  .destaqueV,
-  .destaqueC {
-    position: relative;
-    z-index: 10;
-  }
-  .destaqueV::after,
-  .destaqueC::after {
-    content: "";
-    position: absolute;
-    height: 75px;
-    width: 510px;
-    background: #b2f10c;
-    left: -10px;
-    top: -5px;
-    z-index: -10;
-  }
-
-  .destaqueC::after {
-    width: 510px;
-  }
-}
 
 h3 {
   font-family: var(--font-nohemi);
@@ -95,15 +67,41 @@ p {
 .destaqueC::after {
   content: "";
   position: absolute;
-  height: 75px;
-  width: 500px;
-  max-width: 140px;
+  height: 45px;
+  width: 97%;
+  
   background: #b2f10c;
-  left: -10px;
+  left: 0px;
   top: -5px;
   z-index: -10;
 }
 
-.destaqueC::after {
-  max-width: 355px;
+
+
+@media (width >= 40rem) {
+  h1 {
+    font-family: var(--font-nohemi);
+    font-size: 4.9rem;
+    line-height: 4.7rem;
+    letter-spacing: 0.05rem;
+  }
+
+  .destaqueV,
+  .destaqueC {
+    position: relative;
+    z-index: 10;
+  }
+  .destaqueV::after,
+  .destaqueC::after {
+    content: "";
+    position: absolute;
+    height: 75px;
+    width: 100%;
+    background: #b2f10c;
+    left: -10px;
+    top: -5px;
+    z-index: -10;
+  }
+
+
 }
