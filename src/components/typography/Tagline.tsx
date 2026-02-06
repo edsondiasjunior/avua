@@ -1,12 +1,12 @@
 type TaglineProps = {
-    tagline: string;
-    // className: string;
+    text: string;
+    className?: string;
 }
 
-export default function Tagline({ tagline}: TaglineProps){
+export default function Tagline({ text, className}: TaglineProps){
     return(
         <>
-        <span className="text-[0.875rem] uppercase">{tagline}</span>
+        <span className={className}>{text}</span>
         </>
     )
 

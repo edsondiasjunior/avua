@@ -5,25 +5,26 @@ import RevealTitle from "@/components/animation/RevealTitle"
 export default function Hero() {
   return (
     <>
-      <section className="px-16 py-16 flex flex-col items-center justify-end relative h-[60vh]">
+      <section className="px-16 py-22 flex flex-col items-center justify-end relative h-[70vh]">
         <div className="grid grid-cols-12 gap-10 w-full">
 
 
           <RevealTitle
             as="h1"
-            className="col-span-8 text-start text-5xl md:text-6xl max-w-[990px] self-end"
+            className="col-span-8 text-start text-6xl max-w-[990px] self-end"
           >
-            Construímos presença digital que gera valor, conexão e crescimento.
+            Construímos presença digital que gera <span className="destaqueV"> valor </span> e <span className="destaqueC"> crescimento.</span>
           </RevealTitle>
+
 
           <div
             data-hero-side
-            className="col-span-4 self-end justify-self-end flex flex-col gap-4 items-start justify-center max-w-[450px]"
+            className="col-span-4 self-end justify-self-end flex flex-col gap-4 items-start justify-center max-w-[450px] border-l pl-22"
           >
             <div className="flex flex-col gap-8">
               <p className="text-center md:text-start md:col-span-4">
                 Unimos estratégia, design e tecnologia para transformar marcas
-                em experiências digitais relevantes. Do visual à performance.
+                em <strong>  experiências digitais relevantes. </strong> Do visual à performance.
               </p>
 
               <div className="md:col-span-4 flex">

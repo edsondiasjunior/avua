@@ -8,11 +8,11 @@ export default function Cta() {
         aria-hidden
       />
       <div className="flex flex-col items-center justify-end gap-8 relative z-10">
-        <span className="text-[1.1rem] uppercase text-[#8BED02] text-center tracking-[.16em]">
+        <span className="tagline text-[1.1rem] uppercase text-[#8BED02] text-center tracking-[.16em] font-medium">
             Dê o próximo passo
           </span>
         <h2 className="text-white text-center max-w-4xl">
-          Vamos transformar sua presença digital em resultado
+          Vamos transformar sua presença online em resultado
         </h2>
         <p className="text-white max-w-3xl text-center ">
           Da estratégia ao design, do conteúdo à tecnologia, ajudamos marcas a

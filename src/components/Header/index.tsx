@@ -8,7 +8,7 @@ export default function Header() {
           <Image className="size-22" src={"/avua_logo.svg"} alt="Avuá Agency" height={168} width={116} />
         </Link>
         <nav>
-            {/* <span>MENU</span> */}
+            
         </nav>
       </div>
     </header>

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import dynamic from "next/dynamic";
 import RevealTitle from "@/components/animation/RevealTitle";
 
@@ -6,38 +5,39 @@ const LottieLazy = dynamic(() => import("@/components/ui/LottieLazy"), {});
 
 export default function Funcionalidades() {
   return (
-    <section className="bg-[#1f1f1f] py-22 px-4 lg:px-16 z-100 ">
+    <section className="bg-[#131313] py-22 px-4 lg:px-16 z-100 ">
       <div className=" flex flex-col items-center justify-center lg:grid-cols-2 gap-26 sticky ">
         {/* TÍTULO */}
         <div className="flex flex-col items-center gap-8  sticky top-22  ">
-          <span className="text-[1.1rem] uppercase text-[#8BED02] text-center tracking-[.16em]">
-            O que fazemos
+          <span className="tagline text-[1.1rem] uppercase text-[#8BED02] text-center tracking-[.16em] font-medium">
+            O que entregamos
           </span>
 
           <RevealTitle
             as="h2"
             className="text-5xl md:text-5xl text-white max-w-6xl text-center"
           >
-            Presença digital não é só estar online. <br /> É saber como, onde e
-            por quê.
+            Nada aqui é por acaso
           </RevealTitle>
+          <p className="text-white">Estratégia, método e intenção em cada entrega.</p>
         </div>
 
         {/* CARDS */}
         <div className="flex flex-col items-center gap-80">
           {/* CARD 01 */}
-          <article className="w-full grid grid-cols-5 px-12  lg:min-h-96 bg-[#e9e9e9]  rounded-2xl lg:rounded-[18px] sticky top-[24%] lg:top-[40%] max-w-[1000] ">
-            <div className="col-span-3 flex h-full pt-8  relative">
+          <article className="w-full grid grid-cols-2 py-8  lg:min-h-96 bg-[#e9e9e9]  rounded-2xl lg:rounded-[18px] sticky top-[24%] lg:top-[40%] max-w-[1000] ">
+
+            <div className="col-span-1 flex h-full pt-8  relative">
               <LottieLazy
                 src="/lottie/lottie-card-01.json"
-                className="absolute w-full h-[420px]  max-w-[516px]"
+                className="absolute w-full h-[420px] top-[-5%] max-w-[516px]"
               />
             </div>
 
-            <div className="flex flex-col lg:items-start gap-4 text-4xl   w-full justify-center col-span-2">
-              <span className="text-[1.2rem] ">01</span>
+            <div className="flex flex-col lg:items-start gap-4 p-12 border-l text-4xl w-full justify-center col-span-1">
+              <span className="tagline text-[1rem] font-bold tracking-[.16em] leading-0 text-center flex items-center justify-center h-[30px] w-[50px] bg-[#8BED02]   ">01</span>
 
-              <h3 className="text-black">Design & UI/UX</h3>
+              <h3 className="text-black ">Design & UI/UX</h3>
 
               <p className="text-gray-700 text-[1.2rem] ">
                 Criamos interfaces funcionais, intuitivas e esteticamente
@@ -48,11 +48,12 @@ export default function Funcionalidades() {
           </article>
 
           {/* CARD 02 */}
-          <article className="w-full grid grid-cols-5 px-12  lg:min-h-96 bg-[#e9e9e9]  rounded-2xl lg:rounded-[18px] sticky top-[24%] lg:top-[40%] max-w-[1000] ">
-            <div className="flex flex-col lg:items-start gap-4 text-4xl   w-full justify-center col-span-2">
-              <span className="text-[1.2rem] ">02</span>
+          <article className="w-full grid grid-cols-2 py-8  lg:min-h-96 bg-[#e9e9e9]  rounded-2xl lg:rounded-[18px] sticky top-[24%] lg:top-[40%] max-w-[1000] ">
 
-              <h3 className="text-black">Desenvolvimento Digital</h3>
+            <div className="flex flex-col lg:items-start gap-4 text-4xl  p-12 border-r w-full justify-center col-span-1">
+              <span className="tagline text-[1rem] font-bold tracking-[.16em] leading-0 text-center flex items-center justify-center h-[30px] w-[50px] bg-[#8BED02] ">02</span>
+
+              <h3 className="text-black ">Desenvolvimento Web</h3>
 
               <p className="text-gray-700 text-[1.2rem] ">
                 Sites, landing pages e produtos digitais rápidos, responsivos e
@@ -60,27 +61,27 @@ export default function Funcionalidades() {
               </p>
             </div>
 
-            <div className="col-span-3 flex h-full pt-8  relative">
+            <div className="col-span-1 flex h-full pt-8  relative">
               <LottieLazy
                 src="/lottie/lottie-card-02.json"
-                className="absolute w-full top-[-15%]  max-w-[600px]"
+                className="absolute w-full top-[-20%]  max-w-[600px]"
               />
             </div>
           </article>
 
           {/* CARD 03 */}
-          <article className="w-full grid grid-cols-5 px-12  lg:min-h-96 bg-[#e9e9e9]  rounded-2xl lg:rounded-[18px] sticky top-[24%] lg:top-[40%] max-w-[1000] ">
-            <div className="col-span-3 flex h-full pt-8  relative">
+          <article className="w-full grid grid-cols-2 py-8  lg:min-h-96 bg-[#e9e9e9]  rounded-2xl lg:rounded-[18px] sticky top-[24%] lg:top-[40%] max-w-[1000] ">
+            <div className="col-span-1 flex h-full pt-8  relative">
               <LottieLazy
                 src="/lottie/lottie-card-03.json"
-                className="absolute w-full h-[420px]  max-w-[516px] top-[-5%]"
+                className="absolute w-full h-[420px]  max-w-[516px] top-[-15%]"
               />
             </div>
 
-            <div className="flex flex-col lg:items-start gap-4 text-4xl   w-full justify-center col-span-2">
-              <span className="text-[1.2rem] ">03</span>
+            <div className="flex flex-col lg:items-start gap-4 text-4xl  p-12 border-l w-full justify-center col-span-1">
+              <span className="tagline text-[1rem] font-bold tracking-[.16em] leading-0 text-center flex items-center justify-center h-[30px] w-[50px] bg-[#8BED02]">03</span>
 
-              <h3 className="text-black">Gestão & Estratégia Digital</h3>
+              <h3 className="text-black">Gestão & Estratégia </h3>
 
               <p className="text-gray-700 text-[1.2rem] ">
                 Planejamento estratégico, posicionamento de marca, funil digital
@@ -90,9 +91,9 @@ export default function Funcionalidades() {
           </article>
 
           {/* CARD 04 */}
-          <article className="w-full grid grid-cols-5 px-12  lg:min-h-96 bg-[#e9e9e9]  rounded-2xl lg:rounded-[18px] sticky top-[24%] lg:top-[40%] max-w-[1000] ">
-            <div className="flex flex-col lg:items-start gap-4 text-4xl   w-full justify-center col-span-2">
-              <span className="text-[1.2rem] ">04</span>
+          <article className="w-full grid grid-cols-2 py-8  lg:min-h-96 bg-[#e9e9e9]  rounded-2xl lg:rounded-[18px] sticky top-[24%] lg:top-[40%] max-w-[1000] ">
+            <div className="flex flex-col lg:items-start gap-4 text-4xl p-12 border-r  w-full justify-center col-span-1">
+              <span className="tagline text-[1rem] font-bold tracking-[.16em] leading-0 text-center flex items-center justify-center h-[30px] w-[50px] bg-[#8BED02] ">04</span>
 
               <h3 className="text-black">Redes Sociais & Conteúdo</h3>
 
@@ -102,25 +103,25 @@ export default function Funcionalidades() {
               </p>
             </div>
 
-            <div className="col-span-3 flex h-full pt-8  relative">
+            <div className="col-span1 flex h-full pt-8  relative">
               <LottieLazy
                 src="/lottie/lottie-card-04.json"
-                className="absolute w-full h-[420px]  max-w-[516px] top-[-5%]"
+                className="absolute w-full h-[420px]  max-w-[516px] top-[-15%]"
               />
             </div>
           </article>
 
           {/* CARD 05 */}
-          <article className="w-full grid grid-cols-5 px-12  lg:min-h-96 bg-[#e9e9e9]  rounded-2xl lg:rounded-[18px] sticky top-[24%] lg:top-[40%] max-w-[1000] ">
-            <div className="col-span-3 flex h-full pt-8  relative">
+          <article className="w-full grid grid-cols-2 py-8 lg:min-h-96 bg-[#e9e9e9]  rounded-2xl lg:rounded-[18px] sticky top-[24%] lg:top-[40%] max-w-[1000] ">
+            <div className="col-span-1 flex h-full pt-8  relative">
               <LottieLazy
                 src="/lottie/lottie-card-05.json"
-                className="absolute w-full h-[420px]  max-w-[516px] top-[-5%]"
+                className="absolute w-full h-[420px]  max-w-[516px] top-[-15%]"
               />
             </div>
 
-            <div className="flex flex-col lg:items-start gap-4 text-4xl   w-full justify-center col-span-2">
-              <span className="text-[1.2rem] ">05</span>
+            <div className="flex flex-col lg:items-start gap-4 text-4xl p-12 border-l  w-full justify-center col-span-1">
+              <span className="tagline text-[1rem] font-bold tracking-[.16em] leading-0 text-center flex items-center justify-center h-[30px] w-[50px] bg-[#8BED02] ">05</span>
 
               <h3 className="text-black">Criativos & Performance</h3>
 
@@ -132,9 +133,10 @@ export default function Funcionalidades() {
           </article>
 
           {/* CARD 06 */}
-          <article className="w-full grid grid-cols-5 px-12  lg:min-h-96 bg-[#e9e9e9]  rounded-2xl lg:rounded-[18px] sticky top-[24%] lg:top-[40%] max-w-[1000] ">
-            <div className="flex flex-col lg:items-start gap-4 text-4xl   w-full justify-center col-span-2">
-              <span className="text-[1.2rem] ">06</span>
+          <article className="w-full grid grid-cols-2 py-8  lg:min-h-96 bg-[#e9e9e9]  rounded-2xl lg:rounded-[18px] sticky top-[24%] lg:top-[40%] max-w-[1000] ">
+
+            <div className="flex flex-col lg:items-start gap-4 text-4xl   w-full justify-center p-12 border-r col-span-1">
+              <span className="tagline text-[1rem] font-bold tracking-[.16em] leading-0 text-center flex items-center justify-center h-[30px] w-[50px] bg-[#8BED02] ">06</span>
 
               <h3 className="text-black">Produção de Vídeo</h3>
 
@@ -144,10 +146,10 @@ export default function Funcionalidades() {
               </p>
             </div>
 
-            <div className="col-span-3 flex h-full pt-8  relative">
+            <div className="col-span-1 flex h-full pt-8  relative ">
               <LottieLazy
                 src="/lottie/lottie-card-06.json"
-                className="absolute w-full h-[420px] max-w-[516px] top-[-5%] right-[-3%]"
+                className="absolute w-full h-[420px] max-w-[516px] top-[-12%] right-[-3%]"
               />
             </div>
           </article>
