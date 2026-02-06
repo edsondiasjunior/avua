@@ -5,7 +5,7 @@ import RevealTitle from "@/components/animation/RevealTitle"
 export default function Hero() {
   return (
     <>
-      <section className="px-4 lg:px-16 py-22 flex flex-col items-center justify-end relative w-full h-[90vh] sm:h-[70vh]">
+      <section className="px-4 lg:px-16 py-22 flex flex-col items-center justify-end relative w-full h-screen sm:h-[80vh]">
 
         <div className="flex flex-col sm:grid sm:grid-cols-12 gap-10 sm:w-full">
 
