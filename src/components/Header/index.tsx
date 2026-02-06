@@ -5,7 +5,7 @@ export default function Header() {
     <header className="flex items-center justify-between px-4 sm:px-16 py-5">
       <div className=" w-full flex justify-between items-center ">
         <Link href="/" >
-          <Image className="size-22" src={"/avua_logo.svg"} alt="Avuá Agency" height={168} width={116} />
+          <Image className="size-18" src={"/avua_logo.svg"} alt="Avuá Agency" height={168} width={116} />
         </Link>
         <nav>
             
