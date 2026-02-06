@@ -1,4 +1,4 @@
-import Tagline from "@/components/typography/Tagline";
+
 import Image from "next/image";
 
 export default function comoFunciona() {
@@ -6,7 +6,7 @@ export default function comoFunciona() {
     <section className=" p-4 py-28 flex flex-col items-center justify-center gap-16 lg:sticky lg:top-0 z-[-1] ">
 
       <div className="flex flex-col items-center justify-center gap-8">
-        <Tagline tagline={"Agência de sites"} />
+        
         <h2 className="text-5xl text-center md:text-7xl">CO que fazemos</h2>
       </div>
       <div className="flex flex-col w-full gap-8 md:grid md:grid-cols-3">
