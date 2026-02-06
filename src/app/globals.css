@@ -8,41 +8,40 @@
   --baseColor: #fcfff8;
 }
 
-/* h1,
-h2 {
-  font-family: var(--font-nohemi);
-  font-weight: 600;
-} */
-
 body {
   background: #f2f2f2;
 }
 
 h1 {
   font-family: var(--font-nohemi);
-  font-size: 2.5rem;
-  line-height: 3rem;
-  letter-spacing: 0.05rem;
+  font-size: clamp(3.2rem, 5vw, 4.9rem);
+  line-height: 1.05;
 }
 
 h2 {
   font-family: var(--font-nohemi);
-  font-size: 3.9rem;
-  font-weight: 400;
-  letter-spacing: 0.05rem;
-  line-height: 4rem;
+  font-size: clamp(2.6rem, 4vw, 3.9rem);
+  line-height: 1.1;
 }
-
-
 
 h3 {
   font-family: var(--font-nohemi);
   font-weight: 500;
+  font-size: clamp(2rem, 3.2vw, 2.2rem);
+  line-height: 1.15;
+}
+
+h4 {
+  font-family: var(--font-nohemi);
+  letter-spacing: 0.1rem;
+  line-height: 1.3;
+  font-size: clamp(1.2rem, 3.2vw, 2rem);
 }
 
 p {
   font-family: var(--font-work-sans), system-ui, sans-serif;
-  font-size: 1.2rem;
+  font-size: clamp(1rem, 1.1vw, 1.125rem);
+  line-height: 1.6;
 }
 
 .tagline {
@@ -69,23 +68,14 @@ p {
   position: absolute;
   height: 45px;
   width: 97%;
-  
+
   background: #b2f10c;
   left: 0px;
   top: -5px;
   z-index: -10;
 }
 
-
-
 @media (width >= 40rem) {
-  h1 {
-    font-family: var(--font-nohemi);
-    font-size: 4.9rem;
-    line-height: 4.7rem;
-    letter-spacing: 0.05rem;
-  }
-
   .destaqueV,
   .destaqueC {
     position: relative;
@@ -102,6 +92,4 @@ p {
     top: -5px;
     z-index: -10;
   }
-
-
 }

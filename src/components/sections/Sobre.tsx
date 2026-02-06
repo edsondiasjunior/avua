@@ -9,8 +9,8 @@ export default function Sobre() {
           </span>
 
           <RevealTitle
-            as="h3"
-            className="text-[1.5rem] sm:text-4xl font-normal text-black col-span-7 sm:col-span-5 leading-8 sm:leading-11 "
+            as="h4"
+            className="sm:text-4xl font-light text-black col-span-7 sm:col-span-5 leading-8 sm:leading-11 "
           >
             Somos uma <strong>  agência digital</strong> focada em presença online estratégica.
             Atuamos da concepção à execução, integrando <strong>  design, tecnologia,
