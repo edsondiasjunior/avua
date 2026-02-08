@@ -11,7 +11,7 @@ export default function Hero() {
 
           <RevealTitle
             as="h1"
-            className="col-span-12 lg:col-span-8 text-start w-full sm:max-w-[990px] self-end"
+            className="col-span-12 lg:col-span-8 text-start w-full  self-end uppercase"
           >
             Construímos presença digital que gera <span className="destaqueV"> valor </span> e <span className="destaqueC"> crescimento.</span>
           </RevealTitle>
