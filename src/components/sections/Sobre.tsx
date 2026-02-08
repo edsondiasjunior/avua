@@ -4,7 +4,7 @@ export default function Sobre() {
     <section className="lg:h-[70vh] bg-gray-200 py-32 px-4 lg:px-16 gap-6  lg:sticky top-0 z-[-1] flex justify-center items-center">
       <div className="">
         <div className="grid grid-cols-7 items-start gap-4  ">
-          <span className="tagline text-[1.1rem] text-start uppercase text-black col-span-7 sm:col-span-2 tracking-[.16em] font-medium  ">
+          <span className="tagline ">
             Quem somos
           </span>
 

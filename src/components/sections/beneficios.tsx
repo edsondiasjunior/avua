@@ -5,7 +5,7 @@ export default function Beneficios() {
   return (
     <section className=" bg-white py-52 px-4 lg:px-16 flex flex-col items-center gap-52">
       <div className="flex flex-col gap-8 px-16 lg:px-0">
-        <span className="tagline text-[1.1rem] text-start uppercase text-black col-span-2 tracking-[.16em] font-medium  ">
+        <span className="tagline   ">
           Benefícios
         </span>
 

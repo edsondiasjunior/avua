@@ -19,7 +19,7 @@ export default function Hero() {
 
           <div
             data-hero-side
-            className="col-span-12 lg:col-span-4 self-start sm:self-end sm:justify-self-end flex flex-col gap-4 items-start justify-center max-w-[450px] sm:border-l sm:pl-12"
+            className="col-span-12 lg:col-span-4 self-start sm:self-end sm:justify-self-end flex flex-col gap-4 items-start justify-center max-w-[450px]  sm:pl-12"
           >
             <div className="flex flex-col  gap-8">
               <p className="text-start  md:col-span-4">

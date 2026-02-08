@@ -9,7 +9,7 @@ export default function Funcionalidades() {
       <div className=" flex flex-col items-center justify-center lg:grid-cols-2 gap-26 sticky ">
         {/* TÍTULO */}
         <div className="flex flex-col items-center gap-8  sm:sticky top-22  ">
-          <span className="tagline text-[1.1rem] uppercase text-[#8BED02] text-center tracking-[.16em] font-medium">
+          <span className="tagline text-[#8BED02] text-center">
             O que entregamos
           </span>
 
@@ -17,7 +17,7 @@ export default function Funcionalidades() {
             as="h2"
             className="text-white sm:max-w-6xl text-center"
           >
-            Nada aqui é por acaso
+            Nada aqui acontece por acaso
           </RevealTitle>
           <p className="text-white text-center">
             Estratégia, método e intenção em cada entrega.

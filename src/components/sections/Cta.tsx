@@ -8,7 +8,7 @@ export default function Cta() {
         aria-hidden
       />
       <div className="flex flex-col items-center justify-end gap-8 relative z-10">
-        <span className="tagline text-[1.1rem] uppercase text-[#8BED02] text-center tracking-[.16em] font-medium">
+        <span className="tagline  text-[#8BED02] text-center">
             Dê o próximo passo
           </span>
         <h2 className="text-white text-center sm:max-w-4xl">
