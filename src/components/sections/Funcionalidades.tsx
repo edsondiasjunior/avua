@@ -51,7 +51,7 @@ export default function Funcionalidades() {
 
           {/* CARD 02 */}
           <div className="h-screen sticky top-0 flex justify-center items-center sm:h-fit sm:top-[24%] lg:top-[40%] ">
-            <article className="w-full flex h-[90%] sm:h-auto flex-col-reverse py-8 sm:grid sm:grid-cols-2   sm:min-h-96 bg-[#e9e9e9]  rounded-2xl lg:rounded-[18px] sm:sticky max-w-[1000] ">
+            <article className="w-full flex h-[90%] sm:h-auto flex-col-reverse py-8 sm:grid sm:grid-cols-2   sm:min-h-96 bg-[#dddddd]  rounded-2xl lg:rounded-[18px] sm:sticky max-w-[1000] ">
               <div className="flex flex-col lg:items-start gap-4 p-8 sm:p-12 sm:border-r text-4xl w-full justify-center col-span-1">
                 <span className="tagline text-[1rem] font-bold tracking-[.16em] leading-0 text-center flex items-center justify-center h-[30px] w-[50px] bg-[#8BED02] ">
                   02
@@ -101,7 +101,7 @@ export default function Funcionalidades() {
 
           {/* CARD 04 */}
           <div className="h-screen sticky top-0 flex justify-center items-center sm:h-fit sm:top-[24%] lg:top-[40%] ">
-            <article className="w-full flex h-[90%] sm:h-auto flex-col-reverse py-8 sm:grid sm:grid-cols-2   sm:min-h-96 bg-[#e9e9e9]  rounded-2xl lg:rounded-[18px] sm:sticky  max-w-[1000] ">
+            <article className="w-full flex h-[90%] sm:h-auto flex-col-reverse py-8 sm:grid sm:grid-cols-2   sm:min-h-96 bg-[#dddddd]  rounded-2xl lg:rounded-[18px] sm:sticky  max-w-[1000] ">
               <div className="flex flex-col lg:items-start gap-4 p-8 sm:p-12 sm:border-r text-4xl w-full justify-center col-span-1">
                 <span className="tagline text-[1rem] font-bold tracking-[.16em] leading-0 text-center flex items-center justify-center h-[30px] w-[50px] bg-[#8BED02] ">
                   04
@@ -150,7 +150,7 @@ export default function Funcionalidades() {
 
           {/* CARD 06 */}
           <div className="h-screen sticky top-0 flex justify-center items-center sm:h-fit sm:top-[24%] lg:top-[40%] ">
-            <article className="w-full flex h-[90%] sm:h-auto flex-col-reverse py-8 sm:grid sm:grid-cols-2   sm:min-h-96 bg-[#e9e9e9]  rounded-2xl lg:rounded-[18px] sm:sticky  max-w-[1000] ">
+            <article className="w-full flex h-[90%] sm:h-auto flex-col-reverse py-8 sm:grid sm:grid-cols-2   sm:min-h-96 bg-[#dddddd]  rounded-2xl lg:rounded-[18px] sm:sticky  max-w-[1000] ">
               <div className="flex flex-col lg:items-start gap-4 p-8 sm:p-12 sm:border-r text-4xl w-full justify-center col-span-1">
                 <span className="tagline text-[1rem] font-bold tracking-[.16em] leading-0 text-center flex items-center justify-center h-[30px] w-[50px] bg-[#8BED02] ">
                   06
