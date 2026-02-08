@@ -12,10 +12,10 @@ export default function Sobre() {
             as="h4"
             className="sm:text-4xl font-light text-black col-span-7 sm:col-span-5 leading-8 sm:leading-11 "
           >
-            Somos uma <strong>  agência digital</strong> focada em presença online estratégica.
-            Atuamos da concepção à execução, integrando <strong>  design, tecnologia,
-            conteúdo e gestão para marcas </strong> que querem se destacar no ambiente
-            digital de forma consistente e escalável.
+            Somos uma agência digital que constrói presença online com
+            estratégia. Atuamos da concepção à execução, integrando design,
+            tecnologia, conteúdo e gestão para marcas que buscam destaque no
+            ambiente digital de forma consistente e escalável.
           </RevealTitle>
         </div>
       </div>
